@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex" />
+    <script>
+      (function () {
+        var base = "/" + location.pathname.split("/")[1] + "/";
+        var target =
+          base +
+          location.pathname.slice(base.length) +
+          location.search +
+          location.hash;
+
+        sessionStorage.setItem("gh-pages-redirect", target);
+        location.replace(base);
+      })();
+    </script>
+    <title>Redirecting...</title>
+  </head>
+  <body></body>
+</html>

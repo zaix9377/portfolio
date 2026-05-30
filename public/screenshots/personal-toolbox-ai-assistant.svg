@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">个人工具箱与 AI 助手脱敏界面示意</title>
+  <desc id="desc">展示数据开发工具入口、数据库查询、SQL 处理、AI 对话助手和 AI 投产包检查等模块。</desc>
+  <rect width="1200" height="750" fill="#111827"/>
+  <rect x="56" y="48" width="1088" height="654" rx="24" fill="#f8fafc"/>
+  <rect x="56" y="48" width="1088" height="58" rx="24" fill="#ffffff"/>
+  <path d="M56 82Q56 48 90 48H1110Q1144 48 1144 82V106H56Z" fill="#ffffff"/>
+  <path d="M56 106H1144" stroke="#e2e8f0"/>
+  <rect x="82" y="67" width="24" height="24" rx="6" fill="#0f172a"/>
+  <path d="M89 79H99M94 74V84" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  <text x="120" y="86" fill="#0f172a" font-family="Arial, sans-serif" font-size="22" font-weight="700">个人工具箱</text>
+  <rect x="870" y="64" width="212" height="28" rx="14" fill="#ecfeff"/>
+  <text x="895" y="84" fill="#155e75" font-family="Arial, sans-serif" font-size="13" font-weight="700">Data Workflow + LLM</text>
+
+  <rect x="56" y="106" width="210" height="596" fill="#f1f5f9"/>
+  <text x="84" y="152" fill="#64748b" font-family="Arial, sans-serif" font-size="15" font-weight="700">功能分类</text>
+  <rect x="80" y="178" width="162" height="46" rx="12" fill="#ffffff"/>
+  <rect x="94" y="190" width="22" height="22" rx="6" fill="#dbeafe"/>
+  <text x="130" y="207" fill="#334155" font-family="Arial, sans-serif" font-size="17" font-weight="700">开发相关</text>
+  <rect x="80" y="238" width="162" height="46" rx="12" fill="#ffffff"/>
+  <rect x="94" y="250" width="22" height="22" rx="6" fill="#e0f2fe"/>
+  <text x="130" y="267" fill="#334155" font-family="Arial, sans-serif" font-size="17" font-weight="700">数据库查询</text>
+  <rect x="80" y="298" width="162" height="46" rx="12" fill="#2563eb"/>
+  <rect x="94" y="310" width="22" height="22" rx="6" fill="#bfdbfe"/>
+  <text x="130" y="327" fill="#ffffff" font-family="Arial, sans-serif" font-size="17" font-weight="700">SQL 处理</text>
+  <rect x="80" y="358" width="162" height="46" rx="12" fill="#ffffff"/>
+  <rect x="94" y="370" width="22" height="22" rx="6" fill="#dcfce7"/>
+  <text x="130" y="387" fill="#334155" font-family="Arial, sans-serif" font-size="17" font-weight="700">大模型</text>
+  <rect x="80" y="418" width="162" height="46" rx="12" fill="#ffffff"/>
+  <rect x="94" y="430" width="22" height="22" rx="6" fill="#fef3c7"/>
+  <text x="130" y="447" fill="#334155" font-family="Arial, sans-serif" font-size="17" font-weight="700">其他</text>
+
+  <text x="304" y="164" fill="#0f172a" font-family="Arial, sans-serif" font-size="34" font-weight="700">个人工具箱 / AI 助手</text>
+  <text x="304" y="198" fill="#64748b" font-family="Arial, sans-serif" font-size="17">把数据开发常用操作和 AI 对话能力整合成统一入口</text>
+
+  <rect x="304" y="232" width="548" height="236" rx="18" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="334" y="272" fill="#0f172a" font-family="Arial, sans-serif" font-size="21" font-weight="700">工具入口</text>
+  <rect x="334" y="302" width="150" height="58" rx="14" fill="#eff6ff"/>
+  <text x="358" y="337" fill="#1d4ed8" font-family="Arial, sans-serif" font-size="16" font-weight="700">SQL 拼接</text>
+  <rect x="508" y="302" width="150" height="58" rx="14" fill="#ecfeff"/>
+  <text x="528" y="337" fill="#155e75" font-family="Arial, sans-serif" font-size="16" font-weight="700">变量替换</text>
+  <rect x="682" y="302" width="140" height="58" rx="14" fill="#f0fdf4"/>
+  <text x="704" y="337" fill="#166534" font-family="Arial, sans-serif" font-size="16" font-weight="700">作业查询</text>
+  <rect x="334" y="382" width="150" height="58" rx="14" fill="#fff7ed"/>
+  <text x="358" y="417" fill="#9a3412" font-family="Arial, sans-serif" font-size="16" font-weight="700">CASE 包检查</text>
+  <rect x="508" y="382" width="150" height="58" rx="14" fill="#fefce8"/>
+  <text x="526" y="417" fill="#854d0e" font-family="Arial, sans-serif" font-size="16" font-weight="700">测试数据生成</text>
+  <rect x="682" y="382" width="140" height="58" rx="14" fill="#f5f3ff"/>
+  <text x="701" y="417" fill="#6d28d9" font-family="Arial, sans-serif" font-size="16" font-weight="700">SDM 文档检查</text>
+
+  <rect x="304" y="496" width="548" height="156" rx="18" fill="#0f172a"/>
+  <text x="334" y="536" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="21" font-weight="700">标准化检查模块</text>
+  <rect x="334" y="566" width="190" height="52" rx="14" fill="#1e293b"/>
+  <text x="362" y="599" fill="#93c5fd" font-family="Arial, sans-serif" font-size="17" font-weight="700">AI 投产包检查</text>
+  <rect x="548" y="566" width="254" height="12" rx="6" fill="#94a3b8"/>
+  <rect x="548" y="594" width="214" height="12" rx="6" fill="#64748b"/>
+  <rect x="548" y="622" width="176" height="12" rx="6" fill="#475569"/>
+
+  <rect x="884" y="232" width="212" height="420" rx="18" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="914" y="272" fill="#0f172a" font-family="Arial, sans-serif" font-size="21" font-weight="700">AI 助手</text>
+  <rect x="914" y="300" width="138" height="34" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="936" y="322" fill="#334155" font-family="Arial, sans-serif" font-size="15">代码助手</text>
+  <rect x="914" y="364" width="152" height="54" rx="14" fill="#eff6ff"/>
+  <text x="934" y="397" fill="#1d4ed8" font-family="Arial, sans-serif" font-size="15" font-weight="700">SQL 排查建议</text>
+  <rect x="938" y="444" width="128" height="54" rx="14" fill="#f1f5f9"/>
+  <text x="958" y="477" fill="#334155" font-family="Arial, sans-serif" font-size="15" font-weight="700">知识问答</text>
+  <rect x="914" y="534" width="152" height="72" rx="14" fill="#ecfeff"/>
+  <rect x="934" y="556" width="112" height="10" rx="5" fill="#67e8f9"/>
+  <rect x="934" y="580" width="82" height="10" rx="5" fill="#a5f3fc"/>
+  <rect x="914" y="620" width="152" height="2" fill="#e2e8f0"/>
+  <text x="928" y="642" fill="#94a3b8" font-family="Arial, sans-serif" font-size="13">输入消息...</text>
+</svg>

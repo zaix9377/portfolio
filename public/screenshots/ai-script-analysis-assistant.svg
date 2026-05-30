@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">AI 脚本分析助手脱敏界面示意</title>
+  <desc id="desc">展示多 SQL 脚本上传、三类分析和报告输出的脱敏界面。</desc>
+  <rect width="1200" height="750" fill="#0f172a"/>
+  <path d="M0 120H1200M0 240H1200M0 360H1200M0 480H1200M0 600H1200M150 0V750M300 0V750M450 0V750M600 0V750M750 0V750M900 0V750M1050 0V750" stroke="#1e293b" stroke-width="1"/>
+  <rect x="80" y="64" width="1040" height="622" rx="24" fill="#f8fafc"/>
+  <rect x="112" y="104" width="976" height="70" rx="16" fill="#0f172a"/>
+  <text x="146" y="149" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="28" font-weight="700">AI 脚本分析助手</text>
+  <rect x="112" y="214" width="300" height="340" rx="16" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="142" y="258" fill="#0f172a" font-family="Arial, sans-serif" font-size="22" font-weight="700">上传 SQL 脚本</text>
+  <rect x="142" y="298" width="210" height="16" rx="8" fill="#38bdf8"/>
+  <rect x="142" y="338" width="250" height="16" rx="8" fill="#cbd5e1"/>
+  <rect x="142" y="378" width="180" height="16" rx="8" fill="#cbd5e1"/>
+  <rect x="454" y="214" width="300" height="340" rx="16" fill="#ecfeff" stroke="#67e8f9"/>
+  <text x="484" y="258" fill="#155e75" font-family="Arial, sans-serif" font-size="22" font-weight="700">三类分析</text>
+  <rect x="484" y="300" width="210" height="42" rx="12" fill="#cffafe"/>
+  <text x="510" y="327" fill="#155e75" font-family="Arial, sans-serif" font-size="18">脚本问题</text>
+  <rect x="484" y="366" width="210" height="42" rx="12" fill="#cffafe"/>
+  <text x="510" y="393" fill="#155e75" font-family="Arial, sans-serif" font-size="18">脚本规范</text>
+  <rect x="484" y="432" width="210" height="42" rx="12" fill="#cffafe"/>
+  <text x="510" y="459" fill="#155e75" font-family="Arial, sans-serif" font-size="18">脚本功能</text>
+  <rect x="796" y="214" width="292" height="340" rx="16" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="826" y="258" fill="#0f172a" font-family="Arial, sans-serif" font-size="22" font-weight="700">报告输出</text>
+  <rect x="826" y="302" width="200" height="46" rx="12" fill="#dcfce7"/>
+  <text x="858" y="331" fill="#166534" font-family="Arial, sans-serif" font-size="18">Markdown</text>
+  <rect x="826" y="374" width="200" height="46" rx="12" fill="#dbeafe"/>
+  <text x="898" y="403" fill="#1d4ed8" font-family="Arial, sans-serif" font-size="18">PDF</text>
+  <path d="M412 384H454M754 384H796" stroke="#0891b2" stroke-width="4" stroke-dasharray="10 8"/>
+</svg>
