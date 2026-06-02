@@ -33,6 +33,10 @@ export type ExperienceGroup = {
   projects: ExperienceProject[];
 };
 
+function publicAssetUrl(path: string) {
+  return `${import.meta.env.BASE_URL}${path.replace(/^\//, "")}`;
+}
+
 export const profile = {
   name: "AI 应用工程师候选人",
   title: "数据工程背景的 AI 应用工程师",
@@ -238,7 +242,7 @@ export const projects: Project[] = [
     ],
     impact: "把脚本审查从纯人工阅读变成 AI 初筛 + 人工复核，提高检查覆盖面，也让问题清单和功能说明更容易沉淀。",
     role: "负责分析分类设计、预设提示词编写、脚本输入组织、报告结构设计和 Markdown / PDF 输出流程设计。",
-    screenshot: "/screenshots/ai-script-analysis-assistant.svg"
+    screenshot: publicAssetUrl("/screenshots/ai-script-analysis-assistant.svg")
   },
   {
     slug: "ai-data-issue-troubleshooting",
@@ -257,7 +261,7 @@ export const projects: Project[] = [
     ],
     impact: "帮助排查人员快速建立分析顺序，减少无效试错，让问题定位过程更清晰、可交接、可复盘。",
     role: "负责输入信息结构设计、排查维度抽象、提示词约束、报告字段设计和人工确认流程设计。",
-    screenshot: "/screenshots/ai-data-issue-troubleshooting.svg"
+    screenshot: publicAssetUrl("/screenshots/ai-data-issue-troubleshooting.svg")
   },
   {
     slug: "personal-toolbox-ai-assistant",
@@ -276,7 +280,7 @@ export const projects: Project[] = [
     ],
     impact: "把多个零散提效点统一成可访问、可扩展的工作台，减少重复找脚本和手工处理的时间，也让 AI 能力更自然地嵌入数据开发日常流程。",
     role: "负责工具分类、入口信息架构、AI 助手交互设计、投产检查模块设计和脱敏展示图重绘。",
-    screenshot: "/screenshots/personal-toolbox-ai-assistant.svg"
+    screenshot: publicAssetUrl("/screenshots/personal-toolbox-ai-assistant.svg")
   }
 ];
 

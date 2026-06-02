@@ -1,7 +1,6 @@
 import { ArrowLeft } from "lucide-react";
 import { Link, useParams } from "react-router-dom";
 import { getProjectBySlug } from "../content/site";
-import { publicAssetUrl } from "../utils/assetUrl";
 
 export function ProjectDetailPage() {
   const { slug } = useParams();
@@ -39,7 +38,7 @@ export function ProjectDetailPage() {
             </div>
           </div>
           <div className="rounded-lg border border-white/10 bg-white/[0.04] p-3">
-            <img className="aspect-[16/10] w-full rounded-md object-cover" src={publicAssetUrl(project.screenshot)} alt={`${project.title} 脱敏界面示意`} />
+            <img className="aspect-[16/10] w-full rounded-md object-cover" src={project.screenshot} alt={`${project.title} 脱敏界面示意`} />
           </div>
         </div>
       </section>

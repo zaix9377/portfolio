@@ -1,13 +1,12 @@
 import { ArrowUpRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import type { Project } from "../content/site";
-import { publicAssetUrl } from "../utils/assetUrl";
 
 export function ProjectCard({ project }: { project: Project }) {
   return (
     <article className="group flex h-full flex-col overflow-hidden rounded-lg border border-slate-200 bg-white shadow-panel">
       <div className="border-b border-slate-200 bg-slate-100">
-        <img className="aspect-[16/9] w-full object-cover" src={publicAssetUrl(project.screenshot)} alt={`${project.title} 脱敏界面示意`} />
+        <img className="aspect-[16/9] w-full object-cover" src={project.screenshot} alt={`${project.title} 脱敏界面示意`} />
       </div>
       <div className="flex flex-1 flex-col p-5">
         <div className="mb-4 flex flex-wrap gap-2">
